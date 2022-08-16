@@ -24,10 +24,10 @@
         <repo.name>apigee-</repo.name>
 
         <!--Release repo URL for New Nexus -->
-        <releases.distribution.url>${repo.server.protocol}://${repo.server.root}/${repo.path}/${repo.name}releaserepo/
+        <releases.distribution.url>${repo.server.protocol}://${repo.server.root}/${repo.path}/${repo.name}apireleaserepo/
         </releases.distribution.url>
         <!--Snapshot repo URL for New Nexus -->
-        <snapshot.distribution.url>${repo.server.protocol}://${repo.server.root}/${repo.path}/${repo.name}snapshotrepo/
+        <snapshot.distribution.url>${repo.server.protocol}://${repo.server.root}/${repo.path}/${repo.name}apisnapshotrepo/
         </snapshot.distribution.url>
     </properties>
 
